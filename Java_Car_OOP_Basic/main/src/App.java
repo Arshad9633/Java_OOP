@@ -4,7 +4,7 @@ public class App {
         SUV fortuner = new SUV("Fortuner", false);
 
         fortuner.printTransmissionType();
-        fortuner.move(20, 0);
+        fortuner.move(30, 0);
         fortuner.accelerate(10);
 
         System.out.println("Current Gear: " + fortuner.getCurrentGear());
